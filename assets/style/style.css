@@ -1,0 +1,54 @@
+/* Universal selectors */
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/*Element Selectors*/
+body {
+  position: relative;
+  margin: 0;
+}
+
+main {
+  padding: 100px 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  color: white;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0 10px 0 10px;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  color: black;
+  bottom: 0;
+}
+
+section {
+  display: block;
+}
+/*Class Selectors*/
+
+.nav-link {
+  display: inline;
+}
+
+#nav {
+  position: fixed;
+  right: 0;
+}
+
+#todays-kitten {
+  background-color: teal;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+/*Id Selectors*/
